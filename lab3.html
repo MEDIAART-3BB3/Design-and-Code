@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Lab 3: CSS Art with HTML and CSS</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+        <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Lab 3: CSS Art with HTML and CSS</h1>
+
+        <!-- lab starts here  -->
+        <div class="instructions">
+          <p style="margin-left: 0">
+            In this third lab, you will incorporate the coding language <b>CSS</b> into your workflow. 
+            You will experiment with the process of <b>styling</b> your web-based media art projects.
+          </p>
+
+          <h2>Learning Objectives</h2>
+          <ol>
+          <li>Get familiar with CSS and CSS Art</li>
+          <li>Learn and experiment with styling concepts such as colour palettes</li>
+          <li>Continue practicing with HTML</li>
+          </ol>
+
+          <!-- contents           -->
+          <h2>Contents</h2>
+          <hr />
+
+          <ol>
+            <!--           <li><a href="#tools">Tools you will use in this tutorial</a></li> -->
+            <li><a href="#introduction">What is CSS Art</a></li>
+            <li><a href="#2activity">Defining sections with colours</a></li>            
+            <li><a href="#break">Break: Take a 15-minute break</a></li>
+            <li><a href="#3activity">Experiment with color palettes</a></li>
+            <li><a href="#4activity">Set the text color</a></li>
+            <li><a href="#5activity">Review and quiz</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+            <li><a href="#extras">Continue learning</a></li>
+          </ol>
+
+          <!-- what is photo opt          -->
+          <h2 id="introduction">What is CSS Art</h2>
+          <hr />
+          <div class="definition">
+            <p>
+             <i class="fa fa-quote-left" style="font-size:48px"></i> Cascading style sheets (CSS) give your browser instructions on how to display a given web page, 
+              and it turns out that you can do some pretty incredible stuff... Creating images with CSS involves writing code 
+              that will display an object in a browser and then manipulate its size, edges (to create a circle), colour,
+              and so on. Much like how vector illustration involves manipulating shapes and putting them together to create a
+              final design, CSS image creation involves layering and arranging shapes."
+              <a
+                href="https://www.vice.com/en/article/9kgx7p/painting-made-with-code-html-pure-css-browser-art-diana-smith"
+                target="_blank">... click to read the full article</a
+              >
+            </p>
+          </div>
+
+          <!--  activity1          -->
+
+          <h2 id="2activity">Defining sections with colors</h2>
+          <hr />
+
+          <h4></h4>
+            
+          <h4>Create a CSS file and link it to your index.html file </h4>          
+          <hr>
+          <p>
+            Log into your Glitch account and create a <b>copy</b> of your last week's project
+            by clicking the <b>Remix</b> button on the top-right corner. After, follow the tutorial below
+            to: 
+          </p>
+          <ol>
+            <li>Learn how to <b>create a CSS file</b>
+            <li>Learn how to <b>link a CSS file to an HTML</b> file using the <code>&lt;link&gt;</code> tag below</li>
+             
+            <div style="display:flex; margin: auto; width: 50%;">     
+              <br><br>
+              <button onclick="myFunction()">Copy code</button>
+              <textarea id="myInput" rows="1" cols="50"><link rel="stylesheet" href="style.css"></textarea>
+        </div>
+            
+            <li>Use <b>CSS code to add color to the body</b> described in your HTML file </li>
+              <div style="display:flex; margin: auto; width: 50%;">     
+              <br><br>
+              <button onclick="myFunction2()">Copy code</button>
+              <textarea id="myInput2" rows="3" cols="50">
+body {
+  background: yellow;
+}
+                </textarea>
+        </div>
+
+               <pre>
+                
+                 </pre>
+              
+            </li>
+          </ol>
+          
+          
+            
+ 
+          <p>
+          </p>
+          
+          <div style="max-width: 100%; width: 800px; margin: 0 auto;"> <div style="display: none;"> <p style="display: none; text-align: center; margin-top: 10px;"> <i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">9 STEPS</i> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 1. Go to Files and click the plus sign </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 1 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 2. Name your file style.css and press Enter </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 2 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3. You'll see your new CSS file just below your HTML file </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 4. <b style="font-weight:normal;color:#FF00D6"></b>Click on the index.html file<u><b style="font-weight:normal;color:#FF00D6"><br /></b></u> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 4 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 5. <b style="font-weight:normal;color:#FF00D6"></b>Locate the &lt;head&gt;&lt;/head&gt; tags<u><b style="font-weight:normal;color:#FF00D6"><br /></b></u> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 5 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 6. Paste the code with the &lt;link&gt; tag between the &lt;head&gt; tags </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 6 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 7. Click again on the CSS file </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=7&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 7 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 8. Test that your CSS file is linked and works by adding a color to your webpage. Copy the code you see on the screen.<br /> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=8&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 8 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 9. Scroll and click <b style="font-weight:normal;color:#FF00D6">Preview in a new window</b> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2241993&step_number=9&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 9 image" /></p> </div> </div> <h3 style="display: none; font-size: 18px; margin-top: 89px; margin-bottom: 15px;"> Here's an interactive tutorial </h3> <i style="display: none; font-size: 15px; margin-top: 0; margin-bottom: 43px;">** Best experienced in Full Screen (click the icon in the top right corner before you begin) **</i> <p style="display: none;"> <a href="https://www.iorad.com/player/2241993/Create-a-CSS-file-and-link-it-to-your-index-html-file">https://www.iorad.com/player/2241993/Create-a-CSS-file-and-link-it-to-your-index-html-file</a> </p> <p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;"> <iframe src="https://www.iorad.com/player/2241993/Create-a-CSS-file-and-link-it-to-your-index-html-file?src=iframe&oembed=1" width="100%" height="500px" style="width: 100%; height: 500px; " referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone; clipboard-write"></iframe> </p> <div style="display: none;font-size: 18px; text-align: center;font-family: 'Libre Franklin', sans-serif;"> <br><br> <b style="font-weight: bold; color: #CCCCCC;"> Next step </b> <br><br> <div style="display: inline-block;"> <div style="display: table-row;"> <a style="display: table-cell;" href="http://ior.ad/live/9pfb" target="_blank"> <img src="https://www.iorad.com/golive.svg" style="border: none;" alt="Go Live" /> </a> </div> </div> </div>
+          
+          <h4>Apply colors to individual sections with CSS</h4>
+          <hr>
+          <ol>
+            <li>Define a <b>section</b> with HTML <code>&lt;section&gt; &lt;/section&gt;</code> elements and their <code>class</code> attribute. Watch the 
+            video tutorial below to learn how
+            <div style="max-width: 100%; width: 800px; margin: 0 auto;"> <div style="display: none;"> <p style="display: none; text-align: center; margin-top: 10px;"> <i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">8 STEPS</i> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 1. The first step is to open <b style="font-weight:normal;color:#FF00D6">index.html – denim-ribbon-couch</b> and click <b style="font-weight:normal;color:#FF00D6">index.html</b> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 1 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 2. Click <b style="font-weight:normal;color:#FF00D6"></b> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 2 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3. Type <b style="font-weight:normal;color:#FF00D6">highlight</b> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 4. Type &lt;section class="section-one"&gt;<br /> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 4 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 5. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 5 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 6. Ty<u></u>pe the section closing tag: &lt;/section&gt; </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 6 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 7. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=7&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 7 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 8. Scroll left and that's it. You're done. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242470&step_number=8&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 8 image" /></p> </div> </div> <h3 style="display: none; font-size: 18px; margin-top: 89px; margin-bottom: 15px;"> Here's an interactive tutorial </h3> <i style="display: none; font-size: 15px; margin-top: 0; margin-bottom: 43px;">** Best experienced in Full Screen (click the icon in the top right corner before you begin) **</i> <p style="display: none;"> <a href="https://www.iorad.com/player/2242470/Add-your-first-section-element-and-class-attribute?iframeHash=watchsteps-1">https://www.iorad.com/player/2242470/Add-your-first-section-element-and-class-attribute?iframeHash=watchsteps-1</a> </p> <p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;"> <iframe src="https://www.iorad.com/player/2242470/Add-your-first-section-element-and-class-attribute?iframeHash=watchsteps-1&src=iframe&oembed=1" width="100%" height="500px" style="width: 100%; height: 500px; " referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone; clipboard-write"></iframe> </p> <div style="display: none;font-size: 18px; text-align: center;font-family: 'Libre Franklin', sans-serif;"> <br><br> <b style="font-weight: bold; color: #CCCCCC;"> Next step </b> <br><br> <div style="display: inline-block;"> <div style="display: table-row;"> <a style="display: table-cell;" href="http://ior.ad/live/9pmS" target="_blank"> <img src="https://www.iorad.com/golive.svg" style="border: none;" alt="Go Live" /> </a> </div> </div> </div>
+            </li>
+          <br>  
+            <li>Give a <b>background color</b> to your section using the <b>CSS classes</b> you created. Watch the following 
+            video tutorial to learn how
+            <div style="max-width: 100%; width: 800px; margin: 0 auto;"> <div style="display: none;"> <p style="display: none; text-align: center; margin-top: 10px;"> <i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">6 STEPS</i> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 1. In your index file check what is the name you gave to your section. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 1 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 2. Go to your style.css file </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 2 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3. Type the section's class name and give it a background colour. For example: .section-one { background: green;<br />}<br /> </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 4. Preview your website by clicking Preview in new window </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 4 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 5. You should see a green heading section </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 5 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 6. That's it. You're done. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242573&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 6 image" /></p> </div> </div> <h3 style="display: none; font-size: 18px; margin-top: 89px; margin-bottom: 15px;"> Here's an interactive tutorial </h3> <i style="display: none; font-size: 15px; margin-top: 0; margin-bottom: 43px;">** Best experienced in Full Screen (click the icon in the top right corner before you begin) **</i> <p style="display: none;"> <a href="https://www.iorad.com/player/2242573/Give-a-background-color-to-your-sections-through-the-CSS-classes-you-created?iframeHash=watchsteps-1">https://www.iorad.com/player/2242573/Give-a-background-color-to-your-sections-through-the-CSS-classes-you-created?iframeHash=watchsteps-1</a> </p> <p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;"> <iframe src="https://www.iorad.com/player/2242573/Give-a-background-color-to-your-sections-through-the-CSS-classes-you-created?iframeHash=watchsteps-1&src=iframe&oembed=1" width="100%" height="500px" style="width: 100%; height: 500px; " referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone; clipboard-write"></iframe> </p> <div style="display: none;font-size: 18px; text-align: center;font-family: 'Libre Franklin', sans-serif;"> <br><br> <b style="font-weight: bold; color: #CCCCCC;"> Next step </b> <br><br> <div style="display: inline-block;"> <div style="display: table-row;"> <a style="display: table-cell;" href="http://ior.ad/live/9pox" target="_blank"> <img src="https://www.iorad.com/golive.svg" style="border: none;" alt="Go Live" /> </a> </div> </div> </div>
+            </li>
+          </ol>
+        
+        <hr>
+          <h2 id="break"><i class="fa fa-coffee" style="font-size:36px"></i> Take a 15-minute break </h2>
+<hr>
+<!--   3d activity       -->
+
+        <h2 id="3activity">Experiment with color palettes and additional sections</h2>
+          <hr>
+           <div class="definition">
+            <p>
+             <i class="fa fa-quote-left" style="font-size:48px"></i> A color palette is a combination of colors used by user interface designers when designing an interface. 
+              When used correctly, color palettes form the visual foundation of your brand, help to maintain consistency, 
+              and make your user interface aesthetically pleasing and enjoyable to use"
+              <a href="https://careerfoundry.com/en/blog/ui-design/introduction-to-color-theory-and-color-palettes/#introduction-to-color-palettes" 
+                 target="_blank">... click to read the full article</a> 
+          </p>
+          </div>     
+        
+          <ol>
+            <li>Choose a <b>color palette</b> from the following link: 
+              <a href="https://color.adobe.com/create/color-wheel" target="_blank">https://color.adobe.com/create/color-wheel</a></li>
+            <li>Create additional <b>sections</b> in your <b>index.html</b> file</li>
+            <li><b>Apply colors</b> from the palette to each of your <b>sections</b> in the <b>style.css</b> file</li>
+            
+        </ol>
+        
+        <br>
+            <button type="button" class="collapsible"><i class="fa fa-info-circle"></i> <b>Still unsure how to add sections? Click here to practice</b></button>
+            <div class="additionalInfo">
+              <p>
+                Play with the following interactive tutorial to practice how to add more sections to your index.html file
+              </p>
+            <div style="max-width: 100%; width: 800px; margin: 0 auto;"> <div style="display: none;"> <p style="display: none; text-align: center; margin-top: 10px;"> <i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">15 STEPS</i> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 1. Go to your index.html file </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 1 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 2. Create a new section using the &lt;section&gt; tags. Also, include a class attribute and give it a name </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 2 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3. Add the closing section tag: &lt;/section&gt; </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3b. Click </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=3b&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3b image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 4. Type <b style="font-weight:normal;color:#FF00D6">highlight</b> and Press Enter </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 4 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 5. Type <b style="font-weight:normal;color:#FF00D6">highlight</b> and Press Enter </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 5 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 6. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 6 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 7. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=7&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 7 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 8. Type the closing tag &lt;/section&gt; </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=8&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 8 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 9. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=9&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 9 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 10. Add a third section </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=10&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 10 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 11. Type the closing tag: &lt;/section&gt; </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=11&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 11 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 12. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=12&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 12 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 13. Create a fourth section if you have one </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=13&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 13 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 14. Type closing tag &lt;/section&gt; </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=14&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 14 image" /></p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 15. That's it. You're done. </p> <p style="text-align: center;"><img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=2242286&step_number=15&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 15 image" /></p> </div> </div> <h3 style="display: none; font-size: 18px; margin-top: 89px; margin-bottom: 15px;"> Here's an interactive tutorial </h3> <i style="display: none; font-size: 15px; margin-top: 0; margin-bottom: 43px;">** Best experienced in Full Screen (click the icon in the top right corner before you begin) **</i> <p style="display: none;"> <a href="https://www.iorad.com/player/2242286/Define-sections-with-HTML-and-CSS-classes">https://www.iorad.com/player/2242286/Define-sections-with-HTML-and-CSS-classes</a> </p> <p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;"> <iframe src="https://www.iorad.com/player/2242286/Define-sections-with-HTML-and-CSS-classes?src=iframe&oembed=1" width="100%" height="500px" style="width: 100%; height: 500px; " referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone; clipboard-write"></iframe> </p> <div style="display: none;font-size: 18px; text-align: center;font-family: 'Libre Franklin', sans-serif;"> <br><br> <b style="font-weight: bold; color: #CCCCCC;"> Next step </b> <br><br> <div style="display: inline-block;"> <div style="display: table-row;"> <a style="display: table-cell;" href="http://ior.ad/live/9pjU" target="_blank"> <img src="https://www.iorad.com/golive.svg" style="border: none;" alt="Go Live" /> </a> </div> </div> </div>
+            </div>
+
+        
+          <!-- activity 4   -->
+          <h2 id="4activity">Set the text color</h2>
+          <hr />
+            <p>
+              With CSS you can also change the <b>text color</b> of your webpage. Instead of using the <code>background</code>
+              property, you should use the <code>color</code> property. 
+              <br><br>
+              For example, you can change the text color of the whole webpage by including the following code inside
+              the <code>body</code> selector in your <b>style.css</b> file: <code> color: red; </code>
+              
+                <p class="tip"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Try using the <b>color</b> property 
+                  inside of a <b>section class</b> in your <b>style.css</b> file. What happens?
+        </p>
+
+        
+        </p>
+          
+          <!-- activity 4         -->
+<!--           <h2 id="4activity">Clipping sections with CSS</h2>
+          <hr /> -->
+        
+                
+          <h2 id="5activity">Review quiz</h2>
+          <hr>
+          <iframe width="1280" height="720px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcqKs36WOliREtipgwtcS7MhUNUFNN1RXMk41V1RVQUVRVFpEM1lGRDg0Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+          
+         
+          
+<!--  conclusion          -->
+          
+          <h2 id="conclusion">Conclusion</h2>
+          <hr />
+          <p>
+            You have reached the end of this lab!
+          <br><br>
+          If you feel you want to continue learning see the section below
+      </p>
+
+          <h2 id="extras">Continue learning</h2>
+          <hr />
+          <p>
+           Check out these activities if you are left wondering what else you could do today to continue
+            learning.
+          </p>
+          
+          <ul>
+             <li>
+             Read the full articles from the sections <a href="#introduction">What is CSS Art</a> and
+               <a href="#3activity">Experiment with color palettes</a></li>
+           <li>
+             Go back to the section <a href="#2activity">Defining sections with colors</a> and
+             explore other color palettes for your website
+            </li>
+            <li>
+              Explore the <b>attributes</b> of the HTML <code>&lt;section&gt;</code> tags seen today:
+              <a href="https://www.w3schools.com/tags/default.asp" target="_blank"
+                >https://www.w3schools.com/tags/default.asp</a
+              >
+            </li>
+            <li>
+              Explore the CSS <b>properties</b> of <code>background</code> and <code>color</code> seen today:
+              <a href="https://www.w3schools.com/cssref/index.php" target="_blank"
+                >https://www.w3schools.com/cssref/index.php</a
+              >
+            </li>
+            <li>
+              Help a classmate by answering their questions and providing them
+              with strategies that worked for you
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- footer -->
+    <footer class="footer">
+    </footer>
+  </body>
+</html>
